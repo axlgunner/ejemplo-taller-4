@@ -83,6 +83,7 @@
   <ItemGroup>
     <Content Include="Bienvenida.aspx" />
     <Content Include="blanca.aspx" />
+    <Content Include="ricky.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +119,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ricky.aspx.designer.vb">
+      <DependentUpon>ricky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ricky.aspx.vb">
+      <DependentUpon>ricky.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
